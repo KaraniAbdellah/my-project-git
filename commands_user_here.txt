@@ -15,4 +15,12 @@ BONUS: Conficlt + we can solve this type of problems by contacting the person an
 
 
 # Part 3:
-I create account: https://github.com/KaraniAbdellah/my-project-git
+- I create account: https://github.com/KaraniAbdellah/my-project-git
+MY CASE: I create my repo in github with readme file --> I do git remote in my machine --> I run also git push -u origin main --> git told to pull --> I pull with git pull origin main --> SO I got this error:
+
+/////////////////////
+* branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+/////////////////////
+
+3 min later --> One of the solution I use: --allow-unrelated-histories
