@@ -10,3 +10,9 @@ git commit -m "feat: add file that contain commands used"
 git branch: I list branches
 git branch feature-login: create new branch here
 git checkout feature-login: OK. L'ets Jump to feature-login branch
+
+BONUS: Conficlt + we can solve this type of problems by contacting the person and we set down and we discuss changes in meetting.
+
+
+# Part 3:
+I create account: https://github.com/KaraniAbdellah/my-project-git
