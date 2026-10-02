@@ -22,5 +22,17 @@ MY CASE: I create my repo in github with readme file --> I do git remote in my m
 * branch            main       -> FETCH_HEAD
 fatal: refusing to merge unrelated histories
 /////////////////////
-Error Explination: There is some changes on remote and other changes in local. So We Need to merge.
-3 min later --> One of the solution I use: https://github.com/KaraniAbdellah/my-project-git
+Error Explination: When I Search I Find that There is some changes on remote and other changes in local. So Git Does not Find Related History Between My Changes Locally and Changes That Exit in Github (Because I Commit in Readme file creation).
+////////////////////
+GitHub:   A (README Commit)
+           \
+            ???       ← no common history
+           /
+Local:    B (my-project-git)
+/////////////////////
+
+3 min later I got this command--> One of the solution I use:
+--> git pull https://github.com/KaraniAbdellah/my-project-git main --allow-unrelated-histories
+/////////////////
+SOURCE COMMAND: https://blog.openreplay.com/fix-fatal-refusing-to-merge-unrelated-histories/
+/////////////////
