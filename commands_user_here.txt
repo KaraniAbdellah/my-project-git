@@ -1,0 +1,2 @@
+git s (I use git config --global alias.status s)
+touch README.md
