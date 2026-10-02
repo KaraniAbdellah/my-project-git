@@ -36,3 +36,7 @@ Local:    B (my-project-git)
 /////////////////
 SOURCE COMMAND: https://blog.openreplay.com/fix-fatal-refusing-to-merge-unrelated-histories/
 /////////////////
+
+
+# Part 4:
+- Bonus: We use pull request for revise changes of other developers that exit in our team. We do not use PUSH direclty this lead a lot conflicts.
